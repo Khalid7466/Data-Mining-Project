@@ -50,7 +50,7 @@ With a single command, `uv` will download Python, create the Virtual Environment
 1. **Clone the Repository:**
 ```bash
     git clone https://github.com/Khalid7466/Data-Mining-Project.git
-    cd Data-Mining-Project-2025
+    cd Data-Mining-Project
 ```    
 2. **Run the Magic Command (Sync):** ✨
 ```bash
