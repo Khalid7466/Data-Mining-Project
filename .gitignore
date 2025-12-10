@@ -1,0 +1,89 @@
+# -------------------
+# Python Core & Build
+# -------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# -------------------
+# Virtual Environments (uv & pip)
+# -------------------
+# uv creates this folder, we must ignore it
+.venv/
+venv/
+ENV/
+env/
+
+# -------------------
+# Editor & IDE Settings
+# -------------------
+# VS Code settings (User specific)
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains (If a teammate uses it)
+.idea/
+
+# -------------------
+# Jupyter Notebooks
+# -------------------
+# Auto-save checkpoints (Junk)
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# -------------------
+# Data Files (CRITICAL)
+# -------------------
+# Ignore the data folder so huge files don't break GitHub
+data/
+
+# Ignore common data formats to prevent accidental uploads
+# Everyone should download datasets locally using the links in README
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.zip
+*.tar.gz
+*.pkl
+
+# -------------------
+# OS System Files (Junk)
+# -------------------
+# Mac
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -------------------
+# UV & Project Specifics
+# -------------------
+# Note: We KEEP 'uv.lock' and 'pyproject.toml' to share versions.
+# We ignore the .python-version file if you want flexibility, 
+# but usually, it's okay to keep or ignore. Here we ignore it for safety.
+.python-version
