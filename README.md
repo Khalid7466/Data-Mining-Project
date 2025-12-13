@@ -92,7 +92,7 @@ Since datasets are not included in the repository, you must download them manual
 | **Healthcare** | KNN | `<INSERT_LINK_HERE>` | `healthcare-dataset-stroke-data.csv` |
 | **Finance** | Decision Tree | `<INSERT_LINK_HERE>` | `Churn_Modelling.csv` |
 | **Education** | K-Means | `<INSERT_LINK_HERE>` | `StudentsPerformance.csv` |
-| **Retail / E-Commerce** | Apriori | `<INSERT_LINK_HERE>` | `Online_Retail.csv` |
+| **Retail / E-Commerce** | Apriori | `https://www.kaggle.com/datasets/aslanahmedov/market-basket-analysis` | `Online_Retail.csv` |
 
 **Final Folder Check:**
 Ensure your `data/` folder looks like this:
