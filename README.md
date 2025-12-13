@@ -1,7 +1,3 @@
-Here is the updated **`README.md`** with the dataset links included directly in the main file.
-
------
-
 ````markdown
 # 📊 Data Mining Project (2025) - Modular Approach
 
@@ -29,7 +25,7 @@ Data-Mining-Project-2025/
 │   ├── 📁 healthcare/         # Healthcare Team Workspace
 │   ├── 📁 finance/            # Finance Team Workspace
 │   ├── 📁 education/          # Education Team Workspace
-│   └── 📁 automotive/         # Automotive & E-Commerce Workspace
+│   └── 📁 ecommerce/          # Retail/E-Commerce Team Workspace
 │
 ├── uv.lock                    # 🔒 Critical File (Ensures Version Consistency)
 └── pyproject.toml             # Dependencies Definition
@@ -67,7 +63,6 @@ curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | 
 
 ### Step 2: Clone & Sync
 
-<<<<<<< HEAD
 With a single command, `uv` will download Python, create the Virtual Environment, and install all libraries.
 
 1.  **Clone the Repository:**
@@ -80,16 +75,6 @@ With a single command, `uv` will download Python, create the Virtual Environment
 2.  **Run the Magic Command (Sync):** ✨
 
     ```bash
-=======
-With a single command, `uv` will download Python, create the Virtual Environment, and install all required libraries.
-1. **Clone the Repository:**
-```bash
-    git clone https://github.com/Khalid7466/Data-Mining-Project.git
-    cd Data-Mining-Project
-```    
-2. **Run the Magic Command (Sync):** ✨
-```bash
->>>>>>> c9bf505603f540a45118cdabd136354c850ee4a2
     uv sync
     ```
 
@@ -105,10 +90,10 @@ Since datasets are not included in the repository, you must download them manual
 
 | Team / Domain | Algorithm | Dataset Link | **Required Filename** |
 | :--- | :--- | :--- | :--- |
-| **Healthcare** | KNN / Tree | [Click to Download (Kaggle)](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) | `healthcare-dataset-stroke-data.csv` |
-| **Finance** | Decision Tree | [Click to Download (Kaggle)](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling) | `Churn_Modelling.csv` |
-| **Education** | K-Means | [Click to Download (Kaggle)](https://www.kaggle.com/datasets/hellbuoy/car-price-prediction) | `CarPrice_Assignment.csv` |
-| **E-Commerce** | Apriori | [Click to Download (UCI)](https://archive.ics.uci.edu/ml/datasets/online+retail) | `Online_Retail.csv` |
+| **Healthcare** | KNN | `<INSERT_LINK_HERE>` | `healthcare-dataset-stroke-data.csv` |
+| **Finance** | Decision Tree | `<INSERT_LINK_HERE>` | `Churn_Modelling.csv` |
+| **Education** | K-Means | `<INSERT_LINK_HERE>` | `StudentsPerformance.csv` |
+| **Retail / E-Commerce** | Apriori | `<INSERT_LINK_HERE>` | `Online_Retail.csv` |
 
 **Final Folder Check:**
 Ensure your `data/` folder looks like this:
@@ -117,7 +102,7 @@ Ensure your `data/` folder looks like this:
 data/
 ├── healthcare-dataset-stroke-data.csv
 ├── Churn_Modelling.csv
-├── CarPrice_Assignment.csv
+├── StudentsPerformance.csv
 └── Online_Retail.csv
 ```
 
@@ -144,16 +129,10 @@ You can run your scripts in two ways:
     # Example for Healthcare team
     uv run domains/healthcare/main_health.py
 
-    # Example for E-Commerce team
-    uv run domains/automotive/main_ecommerce.py
+    # Example for Retail team
+    uv run domains/ecommerce/main_retail.py
     ```
 
-<<<<<<< HEAD
 -----
 
 **Good luck, team\! 💪🚀**
-
-```
-=======
-**Good luck, team! 💪🚀**
->>>>>>> c9bf505603f540a45118cdabd136354c850ee4a2
