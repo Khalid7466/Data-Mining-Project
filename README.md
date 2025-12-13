@@ -1,4 +1,3 @@
-````markdown
 # 📊 Data Mining Project (2025) - Modular Approach
 
 Welcome team! 👋
