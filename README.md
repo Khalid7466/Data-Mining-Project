@@ -67,6 +67,7 @@ curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | 
 
 ### Step 2: Clone & Sync
 
+<<<<<<< HEAD
 With a single command, `uv` will download Python, create the Virtual Environment, and install all libraries.
 
 1.  **Clone the Repository:**
@@ -79,6 +80,16 @@ With a single command, `uv` will download Python, create the Virtual Environment
 2.  **Run the Magic Command (Sync):** ✨
 
     ```bash
+=======
+With a single command, `uv` will download Python, create the Virtual Environment, and install all required libraries.
+1. **Clone the Repository:**
+```bash
+    git clone https://github.com/Khalid7466/Data-Mining-Project.git
+    cd Data-Mining-Project
+```    
+2. **Run the Magic Command (Sync):** ✨
+```bash
+>>>>>>> c9bf505603f540a45118cdabd136354c850ee4a2
     uv sync
     ```
 
@@ -137,8 +148,12 @@ You can run your scripts in two ways:
     uv run domains/automotive/main_ecommerce.py
     ```
 
+<<<<<<< HEAD
 -----
 
 **Good luck, team\! 💪🚀**
 
 ```
+=======
+**Good luck, team! 💪🚀**
+>>>>>>> c9bf505603f540a45118cdabd136354c850ee4a2
