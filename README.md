@@ -89,8 +89,8 @@ Since datasets are not included in the repository, you must download them manual
 
 | Team / Domain | Algorithm | Dataset Link | **Required Filename** |
 | :--- | :--- | :--- | :--- |
-| **Healthcare** | KNN | `<INSERT_LINK_HERE>` | `healthcare-dataset-stroke-data.csv` |
-| **Finance** | Decision Tree | `<INSERT_LINK_HERE>` | `Churn_Modelling.csv` |
+| **Healthcare** | Decision Tree | `https://data.mendeley.com/datasets/s2nh6fm925/1` | `healthcare-dataset-stroke-data.csv` |
+| **Finance** | KNN | `<INSERT_LINK_HERE>` | `Churn_Modelling.csv` |
 | **Education** | K-Means | `<INSERT_LINK_HERE>` | `StudentsPerformance.csv` |
 | **Retail / E-Commerce** | Apriori | `https://www.kaggle.com/datasets/aslanahmedov/market-basket-analysis` | `Online_Retail.csv` |
 
