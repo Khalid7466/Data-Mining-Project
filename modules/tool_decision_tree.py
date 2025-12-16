@@ -32,7 +32,7 @@ def prepare_dataset(df, target_column="stroke", test_size=0.2, random_state=100)
     Parameters:
         df (pd.DataFrame): The dataset.
         target_column (str): Name of the target column. Default is "stroke".
-        test_size (float): Proportion of test set. Default is 0.3.
+        test_size (float): Proportion of test set. Default is 0.2.
         random_state (int): Random seed for reproducibility. Default is 100.
     
     Returns:
