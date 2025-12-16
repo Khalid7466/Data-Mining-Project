@@ -10,7 +10,9 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'
 from modules import tool_decision_tree
 
 # Import dataset
-data = tool_decision_tree.importdata(r"C:\Users\alaa\Data-Mining-Project\domains\healthcare\encoded_data.csv")
+script_dir = os.path.dirname(os.path.abspath(__file__))
+data_path = os.path.join(script_dir, "encoded_data.csv")
+data = tool_decision_tree.importdata(data_path)
 
 # Split dataset
 X, Y, X_train, X_test, y_train, y_test = tool_decision_tree.prepare_dataset(data)
